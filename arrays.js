@@ -19,3 +19,8 @@ function destructivelyAddElementToEndOfArray (nArray, elemento){
   nArray.push(elemento);
   return nArray;
 }
+
+function accessElementInArray (nArray, index){
+  var elemento = nArray[parseInt(index)];
+  return elemento
+}
