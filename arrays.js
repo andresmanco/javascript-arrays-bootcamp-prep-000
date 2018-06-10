@@ -34,3 +34,5 @@ function removeElementFromBeginningOfArray (nArray){
   nArray.slice(1);
   return nArray;
 }
+
+function
