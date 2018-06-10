@@ -24,3 +24,8 @@ function accessElementInArray (nArray, index){
   var elemento = nArray[parseInt(index)];
   return elemento;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(nArray){
+  nArray.unshift();
+  return nArray;
+}
