@@ -29,3 +29,5 @@ function destructivelyRemoveElementFromBeginningOfArray(nArray){
   nArray.unshift();
   return nArray;
 }
+
+function 
